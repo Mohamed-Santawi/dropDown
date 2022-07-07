@@ -1,0 +1,178 @@
+.largeScreen {
+  display: none;
+}
+/* Start Header */
+.mobileScreen {
+  margin-top: -18px;
+  background-color: #1b1b1b;
+  height: 70px;
+  display: block;
+}
+.mob-logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+  font-style: italic;
+  padding: 10px;
+  position: relative;
+}
+.mob-logo span {
+  position: absolute;
+  font-size: 0.6rem;
+  color: rgb(4, 197, 204);
+  font-weight: bold;
+  font-style: italic;
+  top: 52px;
+}
+/* End HEader */
+/* Start Menu Bars */
+.menu-bars {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 20px;
+  transform: scale(1.2);
+}
+#home {
+  display: none;
+}
+.menu-bar {
+  background-color: #1b1b1b;
+  margin-top: -5.5px;
+  font-size: 10px;
+  display: none;
+  /* height: 60vh; */
+  border-top: 2px solid black;
+  padding: 10px;
+}
+#menu:checked + div {
+  display: block;
+  width: 100%;
+}
+input {
+  display: none;
+}
+/* End Menu Bars */
+/* Start sub-div */
+.main-div {
+  margin-bottom: 15px;
+  font-size: 0.8rem;
+}
+.main-div label {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.main-div:not(.home-label) {
+  border-top: 2px solid black;
+}
+.fa-plus {
+  position: absolute;
+  right: 35px;
+  font-size: 15 px;
+}
+.main-div label:hover {
+  color: cyan;
+  cursor: pointer;
+  font-weight: bold;
+}
+.main-div label:hover .fa-plus {
+  color: cyan;
+  cursor: pointer;
+  font-weight: bold;
+}
+.sub-div {
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  display: none;
+  margin-top: 3px;
+}
+.sub-div li a:hover {
+  color: cyan;
+  cursor: pointer;
+  font-weight: bold;
+}
+.sub-div a {
+  padding: 4px;
+}
+.projj {
+  font-size: 0.55rem;
+  margin-top: 3px;
+}
+.plus-proj {
+  font-size: 13px;
+}
+.sub-sub-sub {
+  margin-left: 20px;
+  font-size: 0.45rem;
+}
+/* End sub-div */
+/* Start Home checked box */
+#home:checked + ul.sub-div {
+  display: block;
+}
+.sub-sub-div {
+  display: none;
+  margin-top: 3px;
+}
+#Projects:checked + ul.sub-sub-div {
+  display: block;
+}
+.sub-sub-sub:hover {
+  color: cyan;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* End checked box */
+/* Start Contact checked box */
+#contact:checked + ul.sub-div {
+  display: block;
+}
+/* End Contact checked box */
+/* Start About-us checked box */
+#About:checked + ul.sub-div {
+  display: block;
+}
+/* End About-us checked box */
+/* Start Services checked box */
+#Services:checked + ul.sub-div {
+  display: block;
+}
+/* End Services checked box */
+/* Start Main */
+main q {
+  color: black;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  line-height: 1.3;
+}
+/* End Main */
+/* Start Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #1b1b1b;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+}
+footer p {
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+}
+/* End Footer */

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>To4Web</title>
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!--CSS File For Mobile Screen  -->
+    <link rel="stylesheet" href="CSS/mobile.css" media="(max-width: 776px)" />
+    <!-- Render All ELmenents Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Font awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- Animation CSS File -->
+    <link rel="stylesheet" href="CSS/animation.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header For Large Screen -->
+    <header class="largeScreen">
+      <div class="logo">
+        <h1>To4Web</h1>
+        <span dir="rtl">صنايعي Websites</span>
+      </div>
+      <ul class="flex">
+        <li class="main-list">
+          <a class="active main-link" href="#Home">Home</a>
+          <ul class="sub-ul list1">
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#Clients">Clients</a></li>
+            <li class="proj">
+              <a href="#Projects">Projects&nbsp; +</a>
+              <ul class="sub-sub-ul">
+                <li><a class="sub-sub-link" href="#project1">Project1</a></li>
+                <li><a class="sub-sub-link" href="#project2">Project2</a></li>
+                <li><a class="sub-sub-link" href="#project3">Project3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="main-list">
+          <a class="main-link" href="#Contact">Contact</a>
+          <ul class="sub-ul list2">
+            <li><a href="#Tel">Tel</a></li>
+            <li><a href="#WhatsApp">WhatsApp</a></li>
+            <li><a href="#Facebbok">Facebbok</a></li>
+          </ul>
+        </li>
+        <li class="main-list">
+          <a class="main-link" href="#About Us">About Us</a>
+          <ul class="sub-ul list3">
+            <li><a href="#Info">Info</a></li>
+            <li><a href="#Location">Location</a></li>
+          </ul>
+        </li>
+        <li class="main-list">
+          <a class="main-link" href="#Services">Services</a>
+          <ul class="sub-ul list4">
+            <li><a href="#Info">Responsive Website</a></li>
+            <li><a href="#Location">Mobile Application</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <!-- End Header For Large Screen -->
+    <!-- Start Header For Mobile Screen -->
+    <header class="mobileScreen">
+      <div class="mob-logo">
+        <h1>To4Web</h1>
+        <span dir="rtl">صنايعي Websites</span>
+      </div>
+      <label class="menu-bars" for="menu"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <input id="menu" type="checkbox" />
+      <div class="menu-bar">
+        <div class="main-div home-label">
+          <label for="home">Home <i class="fas fa-plus"></i> </label>
+          <input type="checkbox" id="home" />
+          <ul class="sub-div">
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#Clients">Clients</a></li>
+            <li>
+              <label class="projj" for="Projects"
+                >Projects <i class="fas fa-plus plus-proj"></i>
+              </label>
+              <input type="checkbox" id="Projects" />
+              <ul class="sub-sub-div">
+                <li><a class="sub-sub-sub" href="#project1">Project1</a></li>
+                <li><a class="sub-sub-sub" href="#project2">Project2</a></li>
+                <li><a class="sub-sub-sub" href="#project3">Project3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="main-div">
+          <label for="contact">Contact <i class="fas fa-plus"></i> </label>
+          <input type="checkbox" id="contact" />
+          <ul class="sub-div">
+            <li><a href="#tel">Tel</a></li>
+            <li><a href="#WhatsApp">WhatsApp</a></li>
+            <li>
+              <a href="#Facebbok">Facebbok</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-div">
+          <label for="About">About Us <i class="fas fa-plus"></i> </label>
+          <input type="checkbox" id="About" />
+          <ul class="sub-div">
+            <li><a href="#Info">Info</a></li>
+            <li><a href="#Location">Location</a></li>
+          </ul>
+        </div>
+        <div class="main-div">
+          <label for="Services">Services <i class="fas fa-plus"></i> </label>
+          <input type="checkbox" id="Services" />
+          <ul class="sub-div">
+            <li><a href="#Responsive">Responsive Website</a></li>
+            <li><a href="#Mobile">Mobile Application</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End Header For Mobile Screen -->
+    <!-- Start Main Content -->
+    <main>
+      <q>Websites promote you 24/7: No employee will do that.</q>
+    </main>
+    <!-- End Main Content -->
+    <!-- Start Footer -->
+    <footer>
+      <p>Designed With <span>&#129505;</span> By Mohamed Elsantawi</p>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
